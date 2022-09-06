@@ -37,11 +37,15 @@
     createPlatform(0, game.world.height - 32, 3, 2); // DO NOT DELETE
 
     // example:
-    createPlatform(400, 250);
-    createPlatform(170, 460, 0.5);
-    createPlatform(400, 460);           // normal platform
-createPlatform(300, 200, 0.3)       // small horizontal platform (30% the normal width)
-createPlatform(850, 500, 0.3, 10)   // tall vertical wall (30% the normal width and 10x the height)
+    createPlatform(200, 300, 0.6);
+    createPlatform(6, 370, 0.4);
+    createPlatform(700, 350, 0.5);
+
+    createPlatform(700, 120, 0.5);
+    createPlatform(130, 460, 0.5);
+    createPlatform(430, 500, 0.7);           // normal platform
+    createPlatform(450, 200, 0.6)       // small horizontal platform (30% the normal width)
+    createPlatform(800, 550, 0.3, 10)   // tall vertical wall (30% the normal width and 10x the height)
 
     // ALL YOUR CODE GOES ABOVE HERE ///////////////////////////////////////
     ////////////////////////////////////////////////////////////////////////
