@@ -17,7 +17,7 @@ h1 {
 #mainContent {
   border-style: solid;
   padding: 10px;
-  background: rgb(255, 206, 232);
+  background: rgb(255, 191, 227);
   color: rgb(249, 249, 249);
   font-family: Georgia;
   border: 25px;
@@ -29,7 +29,7 @@ h1 {
 table,
 th,
 td {
-  border: 1px solid rgb(0, 0, 0);
+  border: 2px solid rgb(249, 249, 249);
   border-collapse: collapse;
 }
 
@@ -43,30 +43,72 @@ th {
   width: 120%;
 }
 
+td {
+  background-color: rgb(255, 206, 232);
+  width: 1%;
+}
+
+.border {
+  border-right: 2px solid rgb(255, 206, 232);
+}
+
 a:link {
-  color: rgb(255, 104, 104);
+  color: rgb(255, 104, 157);
   text-decoration: none;
 }
 
 a:visited {
-  color: rgb(164, 108, 255);
+  color: rgb(253, 135, 255);
   text-decoration: none;
 }
 
 a:hover {
-  color: rgb(255, 30, 142);
+  color: rgb(255, 100, 214);
   text-decoration: none;
 }
 
 a:active {
-  color: rgb(130, 130, 255);
+  color: rgb(207, 130, 255);
   text-decoration: none;
 }
 
 .img1 {
-  resize: 30%;
+  width: 10%;
+  height: 10%;
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin-top: 10px;
+}
+
+.img2 {
+  width: 60%;
+  height: 60%;
+  border: 2px solid rgb(249, 249, 249);
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.img3 {
+  width: 66%;
+  height: 66%;
+  border: 2px solid rgb(249, 249, 249);
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(255, 191, 227);
+  font-family: Georgia;
+}
+
+nav {
+  background: rgb(255, 206, 232);
+  border: 15px solid rgb(255, 206, 232);
+  border-radius: 25px;
+  margin-right: 10px;
+  margin-left: 10px;
 }
