@@ -48,38 +48,38 @@ var background = function (window) {
                 background.addChild(circle);
             }
 
-            var deathstar = draw.bitmap("img/deathstar.png");
-                deathstar.x = 800;
-                deathstar.y = 0.5;
-                deathstar.scaleX = 1.5;
-                deathstar.scaleY = 1.5;
-                background.addChild(deathstar);
+            var moon = draw.bitmap("img/moon.png");
+                moon.x = 400;
+                moon.y = 1;
+                moon.scaleX = 1.5;
+                moon.scaleY = 1.5;
+                background.addChild(moon);
 
           
             
             // TODO 5: Part 1 - Add buildings!     Q: This is before TODO 4 for a reason! Why?
             
             for (var i = 0; i < 5; ++i) {
-                var buildingHeight = 300 * Math.random();
-                var building = draw.bitmap("img/rocks.png");
-                //draw.rect(75, buildingHeight, "Gray", "white", 1);
-                //= 
+                var buildingHeight = 300;
+                var building = draw.bitmap("");
+                var building = draw.rect(75, buildingHeight, "LightGray", "White", 1);
+                
                 building.x = 200 * i;
                 building.y = groundY - buildingHeight;
-                background.addChild(building);
+                background.addChild(building)
                 buildings.push(building);
               }
             
             // TODO 4: Part 1 - Add a tree
-            falcon = draw.bitmap("img/falcon.png");
-            falcon.x = 10;
-            falcon.y = 100;
+            falcon = draw.bitmap("img/tree.png");
+            falcon.x = 900;
+            falcon.y = 250;
             background.addChild(falcon);
             
         } // end of render function - DO NOT DELETE
 
-            var falcon
-            var buildings = [];
+        var falcon
+        var buildings = [];
         
         // Perform background animation
         // called on each timer "tick" - 60 times per second
